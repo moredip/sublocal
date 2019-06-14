@@ -7,9 +7,8 @@ services:
     ports:
       - "80:80"
 
-  shell:
-    image: circleci/buildpack-deps 
-    command: bash
-    stdin_open: true
-    tty: true
-
+  #shell:
+    #image: circleci/buildpack-deps 
+    #command: bash
+    #stdin_open: true
+    #tty: true
